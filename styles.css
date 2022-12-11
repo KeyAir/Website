@@ -1,28 +1,23 @@
+*{
+    background-color: #e5daed
+}
 
-body {
-  font-family: sans-serif;
-  background-color: #f4f4f4;
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
-h1 {
-  text-align: center;
-  color: #333;
+
+.nav_list li{
+    display: inline-block;
+    list-style-type: none;
 }
-p {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.5;
-  padding: 20px;
+
+.nav_list a{
+    color: black;
 }
-.about {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin-top: 20px;
-}
-.contact {
-  text-align: center;
-  margin-top: 20px;
-}
-a {
-  color: #00b0ff;
+
+.nav_list button{
+    background-color: lavender;
 }
